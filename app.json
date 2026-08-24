@@ -8,11 +8,9 @@
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "icon": "./assets/images/hero-promo.jpg",
     "splash": {
       "backgroundColor": "#ff7a00"
     },
-    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.autohub.gcc"
