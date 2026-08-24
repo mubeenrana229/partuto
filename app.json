@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "AutoHub",
+    "owner": "unifuns-team",
     "slug": "autohub-gcc",
     "scheme": "autohub",
     "version": "1.0.0",
@@ -22,18 +23,11 @@
         "backgroundColor": "#ff7a00"
       }
     },
-    "android": {
-      "package": "com.autohub.gcc",
-      "adaptiveIcon": {
-        "backgroundColor": "#ff7a00"
-      }
-    },
     "extra": {
       "eas": {
         "projectId": "6a29e8ff-c6ac-4a1c-a9f5-d097825522dd"
       }
     },
-    "plugins": ["expo-router"],
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
