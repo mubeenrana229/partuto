@@ -12,9 +12,11 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { colors } from "@/lib/theme";
 import { ToastHost } from "@/components/Toast";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 export default function RootLayout() {
   return (
+    <ErrorBoundary>
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
@@ -39,5 +41,6 @@ export default function RootLayout() {
         <ToastHost />
       </SafeAreaProvider>
     </GestureHandlerRootView>
+    </ErrorBoundary>
   );
 }
